@@ -1,4 +1,4 @@
-console.log("V1.0")
+
 
 (function($) {
 
@@ -291,6 +291,7 @@ console.log("V1.0")
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
+							console.log("V1.0")
 							if (location.hash == "#intro"){
 								location.hash = '#';
 							}else{
