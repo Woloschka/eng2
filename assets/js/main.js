@@ -1,8 +1,4 @@
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
 
@@ -295,7 +291,14 @@
 					$('<div class="close">Close</div>')
 						.appendTo($this)
 						.on('click', function() {
-							location.hash = '#intro';
+							console.log("V1.0")
+							if (location.hash == "#intro"){
+								location.hash = '#';
+							}else{
+								location.hash = '#intro';
+							}
+
+							
 						});
 
 				// Prevent clicks from inside article from bubbling.
