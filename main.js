@@ -296,7 +296,7 @@
 						.appendTo($this)
 						.on('click', function() {
 							if (location.hash == "#intro"){
-								location.hash = '';
+								location.hash = '#';
 							}else{
 								location.hash = '#intro';
 							}
